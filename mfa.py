@@ -212,7 +212,7 @@ def delete_source_record(event):
 
 # ベースウィンドウ
 root = TkinterDnD.Tk()
-root.title('File Cleaning')
+root.title('Moving-file automator')
 root.geometry("815x300")
 
 root.grid_rowconfigure(0, weight=1)
